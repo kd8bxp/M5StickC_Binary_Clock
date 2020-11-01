@@ -24,13 +24,13 @@ https://www.youtube.com/channel/UCP6Vh4hfyJF288MTaRAF36w
 https://kd8bxp.blogspot.com/  
 */
 
-#include <M5StickC.h>
+#include "src/M5StickC/M5StickC.h"
 #include <HTTPClient.h>
-#include <ArduinoJson.h>
+#include "src/ArduinoJson/ArduinoJson.h"
 #include <WiFi.h>
-#include <NTPClient.h>
+#include "src/NTPClient/NTPClient.h"
 #include <WiFiUdp.h>
-#include <TimeLib.h>
+#include "src/Time/TimeLib.h"
 #include <SPI.h>
 #include <ESPmDNS.h>
 
